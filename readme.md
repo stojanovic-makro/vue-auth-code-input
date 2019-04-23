@@ -2,6 +2,8 @@
 
 Authentication code input component in vue
 
+<img src="./eg.gif" width="400"/>
+
 # Install
 
 ```sh
@@ -13,7 +15,7 @@ yarn add vue-auth-code-input
 ```html
 <template>
   <div>
-    <vue-auth-code-input />
+    <vue-auth-code-input @inputChange="handleChange"/>
   </div>
 </template>
 <script>
@@ -21,6 +23,11 @@ import VueAuthCodeInput from 'vue-auth-code-input'
 export default {
   components: {
     VueAuthCodeInput
+  },
+  methods: {
+    handleChange(code, index){
+      console.log(code)
+    }
   }
 }
 </script>
@@ -34,5 +41,5 @@ export default {
 
 | name            | parameters | description                   |
 | --------------- | ---------- | ----------------------------- |
-| inputChange | codeArray[], changedIndex[]    | When some input value changes |
-| inputComplete | codeArray[], changedIndex[]    | When all input value are not empty |
+| inputChange | codeArray, changedIndex    | When some input value changes |
+| inputComplete | codeArray, changedIndex    | When all input value are not empty |
