@@ -1,5 +1,5 @@
 {
-  "name": "vue-auth-code-input",
+  "name": "vue-auth-code-number-input",
   "version": "1.0.1",
   "description": "Authentication code input component in vue",
   "keywords": ["vue", "authentication", "security", "code", "input", "component"],
