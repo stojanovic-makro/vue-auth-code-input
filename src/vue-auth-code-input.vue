@@ -7,7 +7,9 @@
       :style="{'margin-left': (index===0?0:(codeLength/2 === index)?18:6) + 'px'}"
     >
       <input
-        type="text"
+        type="number"
+        min="0"
+        step="1"
         class="auth-code_input"
         @keydown.prevent="handlePress($event, index)"
         ref="authcode_input"

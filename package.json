@@ -3,11 +3,11 @@
   "version": "1.0.1",
   "description": "Authentication code input component in vue",
   "keywords": ["vue", "authentication", "security", "code", "input", "component"],
-  "author": "https://github.com/waningflow",
+  "author": "https://github.com/stojanovic-makro",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/waningflow/vue-auth-code-input.git"
+    "url": "https://github.com/stojanovic-makro/vue-auth-code-number-input"
   },
   "main": "dist/vue-auth-code-input.umd.js",
   "module": "dist/vue-auth-code-input.esm.js",
